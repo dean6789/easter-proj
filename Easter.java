@@ -23,6 +23,21 @@ public class Easter{
         System.out.println("g = "+g);
         int h = (19 * a + b - d - g + 15) / 30;
         System.out.println("h = "+h);
+        int i = c / 4;
+        System.out.println("i = "+i);
+        int k = c % 4;
+        System.out.println("k = "+k);
+        int r = (32 + 2 * e + 2 *i - h - k) % 7;
+        System.out.println("r = "+r);
+        int m = ( a + 11 * h + 22 * r) / 451;
+        System.out.println("m = "+m);
+        int n = ( h + r - 7 * m + 114) / 31;
+        System.out.println("n = "+n);
+        int p = (h + r - 7 * m + 114) % 31; 
+        System.out.println("p = "+p);
+
+        
+        
 
 
 
